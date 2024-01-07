@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px; 
+}
+
+.item {
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+	padding: 8px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.price {
+	font-size: 18px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+
+.item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.item:hover .price {
+    color: white; 
+    background-color: black;
+}
+
+.fab-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.fab-btn {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab-btn img {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+#contact-info {
+    margin-top: 10px;
+	text-align: left;
+}
+
+#contact-info p {
+    margin: 5px 0;
+}
+
+.contact {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc00;
+}
